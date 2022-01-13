@@ -1,2 +1,1 @@
-# MSDS-422
-Machine Learning
+Repository of work completed in MSDS 422 (Applied Machine Learning)
