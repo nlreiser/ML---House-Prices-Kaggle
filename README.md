@@ -2,6 +2,8 @@ Get my notebook: https://colab.research.google.com/drive/1Cl_clxLCq7hF6cqAPcFcyp
 
 Kaggle username: Nina Reiser
 
+house_prices_test https://github.com/nlreiser/MSDS-Machine-Learning/blob/main/Old%20Versions/hp_submission4.csv
+
 
 I.	Introduction: Research Question and Problem for Management
 
