@@ -1,3 +1,7 @@
+Get my notebook: https://colab.research.google.com/drive/1Cl_clxLCq7hF6cqAPcFcypXUWuXLQj2-?usp=sharing
+Kaggle username: Nina Reiser
+
+
 I.	Introduction: Research Question and Problem for Management
 
 The house prices dataset consists of 80 attributes for 1460 different homes in Ames, Iowa. The purpose of this study is to determine how these attributes affect sale prices of homes. Analysis of the house price data provides information and insight into what specifically affects the cost of a home and can be used to make predictions about the cost of other homes for which price is not available. Real estate firms and builders can use this information to predict and set costs of homes for future buyers.  
