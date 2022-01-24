@@ -1,8 +1,8 @@
-Get my notebook: https://colab.research.google.com/drive/1Cl_clxLCq7hF6cqAPcFcypXUWuXLQj2-?usp=sharing
+Get my notebook: https://colab.research.google.com/drive/1E0tz6UMO4IlMncLwhe9cD9LWj2vKKVHw?usp=sharing
 
 Kaggle username: Nina Reiser
 
-Test_SalePrice_Predictions.csv: https://github.com/nlreiser/MSDS-Machine-Learning/blob/main/Old%20Versions/hp_submission4.csv
+Test_SalePrice_Predictions.csv: 
 
 
 I.	Introduction: Research Question and Problem for Management
