@@ -60,6 +60,7 @@ The following models were tested with the train data set split at 80/20: Linear 
 
 
 VII.	Conclusions
+
 After EDA of the dataset, the factors to include in the machine learning model are those that have the greatest impact on sale 
 price of the home, those being OverallQual, YearBuilt, YearRemodAdd, TotRmsAbvGrd, GarageType, GarageCars,
 TotalBaths, TotalSF, QualxSF, ExterQual_E, BsmtQual_E, KitchenQual_E, and Neighborhood. The data was scaled to keep consistency across variables with MinMax scaler. After testing several models, ElasticNet performed the best on the training data (using train_test_split). After optimization of hyperparameters, the resulting ElasticNet model outputted SalePrice predictions that had a score of 0.17175 on the Kaggle House Prices Competition (see below). This score was substantially better than the Random Forest model score of 0.39634. For management, it is suggested to use the ElasticNet model to make predictions of sale prices for future investment and selling opportunities.
