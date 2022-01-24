@@ -56,7 +56,12 @@ Figure 5. Spearman correlation map of independent variables and SalePrice.
 
 VI. Models
 
-The following models were tested with the train data set split at 80/20: Linear Regression, Decision Tree, Random Forest, Lasso, Ridge, and ElasticNet. The models were fit to 80% of the training dataset and then used on the 'test' 20% remaining of the training dataset to predict SalePrice. MinMax scaler was used to scale the data before fitting. Once the best model was chosen, it was fit to 100% of the training data and then applied to the real test dataset for predictions that would be put into Kaggle. 5 cross validations were used for each of these models. ElasticNet was chosen as the most suitable model for this dataset and GridSearchCV was used to optimize hyperparameters. The final ElasticNet model had an alpha=0.0001, an l1_ratio=0.0, and max_iterations=10. The transformed test data was put into the model and SalePrice values were predicted.
+The following models were tested with the train data set split at 80/20: Linear Regression, Decision Tree, Random Forest, Lasso, Ridge, and ElasticNet. The models were fit to 80% of the training dataset and then used on the 'test' 20% remaining of the training dataset to predict SalePrice. MinMax scaler was used to scale the data before fitting. Once the best model was chosen, it was fit to 100% of the training data and then applied to the real test dataset for predictions that would be put into Kaggle. 5 cross validations were used for each of these models. ElasticNet was chosen as the most suitable model for this dataset and GridSearchCV was used to optimize hyperparameters (see Figure 6). The final ElasticNet model had an alpha=0.0001, an l1_ratio=0.0, and max_iterations=10. The transformed test data was put into the model and SalePrice values were predicted.
+
+
+![image](https://user-images.githubusercontent.com/97359451/150706131-bf1a42cb-543f-4124-a1ce-1117d81d366e.png)
+
+Figure 6. Predicted_Log versus Actual SalePrice_Log Values of Training Data.
 
 
 VII.	Conclusions
